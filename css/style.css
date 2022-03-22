@@ -17,8 +17,29 @@ body{
 /*-----------
     HEADER
 ------------*/
+a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px;
+    display: inline-block;
+}
 
+li{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
 
+header{
+    position: fixed;
+    top: 30px;
+    right: 10px;
+}
 
 /*-----------
     COMMONS
@@ -39,12 +60,12 @@ body{
    SECTION-2
 ------------*/
 .section-2{
-    background-color: green;
+    /* background-color: green; */
 }
 
 /*-----------
    SECTION-3
 ------------*/
 .section-3{
-    background-color: yellow;
+    /* background-color: yellow; */
 }
