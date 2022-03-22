@@ -39,6 +39,7 @@ header{
     position: fixed;
     top: 30px;
     right: 10px;
+    z-index: 1;
 }
 
 /*-----------
@@ -83,4 +84,8 @@ header{
 ------------*/
 .section-3{
     background-color: yellow;
+}
+
+.section-3 h1{
+    color: green;
 }
