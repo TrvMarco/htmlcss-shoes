@@ -7,3 +7,44 @@
     box-sizing: border-box;
 }
 
+/*-----------
+    FONT
+------------*/
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+/*-----------
+    HEADER
+------------*/
+
+
+
+/*-----------
+    COMMONS
+------------*/
+.section{
+  height: 100vh;
+}
+
+
+/*-----------
+   SECTION-1
+------------*/
+.section-1{
+    background-color: #ff0000;
+}
+
+/*-----------
+   SECTION-2
+------------*/
+.section-2{
+    background-color: green;
+}
+
+/*-----------
+   SECTION-3
+------------*/
+.section-3{
+    background-color: yellow;
+}
