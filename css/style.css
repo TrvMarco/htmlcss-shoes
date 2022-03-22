@@ -45,7 +45,11 @@ header{
 /*-----------
     COMMONS
 ------------*/
-.section{
+html{
+    scroll-behavior: smooth;
+}
+
+section{
   height: 100vh;
   position: relative;
 }
@@ -68,24 +72,24 @@ header{
 /*-----------
    SECTION-1
 ------------*/
-.section-1{
+#section-1{
     background-color: #ff0000;
 }
 
 /*-----------
    SECTION-2
 ------------*/
-.section-2{
+#section-2{
     background-color: green;
 }
 
 /*-----------
    SECTION-3
 ------------*/
-.section-3{
+#section-3{
     background-color: yellow;
 }
 
-.section-3 h1{
+#section-3 h1{
     color: green;
 }
